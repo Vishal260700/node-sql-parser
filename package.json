@@ -6,8 +6,8 @@
   "types": "types.d.ts",
   "scripts": {
     "start": "webpack --config webpack.config.js",
-    "build": "npm run lint && npm run compile && webpack --config webpack.config.js --prod",
-    "test": "npm run lint && mochapack \"test/**/*.spec.js\"",
+    "build": "npm run compile && webpack --config webpack.config.js --mode production",
+    "test": "mochapack \"test/**/*.spec.js\"",
     "lint": "eslint src",
     "compile": "babel src -d lib",
     "coverLocal": "cross-env NODE_ENV=coverage nyc --reporter=lcov --reporter=text npm run test",
