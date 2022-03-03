@@ -1,7 +1,7 @@
 {
-  "name": "node-sql-parser",
-  "version": "4.1.1",
-  "description": "simple node sql parser",
+  "name": "npx-sql-parser",
+  "version": "1.0.0",
+  "description": "wrapper around npm-sql-parser",
   "main": "index.js",
   "types": "types.d.ts",
   "scripts": {
